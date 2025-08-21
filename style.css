@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+  }
+  
+  .paginatoda {
+    background-image: url("fotos/cenario\ do\ jogo_2001_RobertoGeovannaFlaviaSabrynna_2003_YuriMatheus.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* evita repetição */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    min-height: 90vh;
+  }
+  
+  .jogo {
+    font-weight: 400;
+    font-style: normal;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.158);
+    line-height: 1.6em;
+    font-size: 1.4em;
+    text-align: justify;
+  }
+  
+  .titulo {
+    font-weight: 400;
+    font-style: normal;
+    max-width: 800px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.158);
+    line-height: 1.6em;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  
+  .manual {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.158);
+    line-height: 1.6em;
+    font-size: 1.2em;
+    text-align: justify;
+  }
+  
+  .rodapé {
+    background: #269900;
+    background: linear-gradient(90deg, rgba(38, 153, 0, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(38, 153, 0, 1) 100%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    /* Espaçamento interno */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Ocupa toda a largura da tela */
+    font-size: 20px;
+  }
+  
+  .voltar {
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .voltar:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    /* Espaçamento entre os botões */
+    gap: 50px;
+    margin-bottom: 20px;
+    background-color: #752b00;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .integrantes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .pessoas{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pessoas > img{
+    border-radius: 50%;
+  }
+  
+  .caixa > h2{
+    font-size: 30px;
+    min-width: 229px;
+  }
+  
+  .caixa > p{
+    font-size: 20px;
+    max-width: 300px;
+  }
